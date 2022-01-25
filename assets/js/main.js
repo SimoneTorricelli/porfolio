@@ -207,7 +207,7 @@ var submitButton = document.getElementById("submitButton");
 
 closeButton = document.getElementById("success__modal-button");
 closeButton.addEventListener("click", () => {
-    modalMessage.classList.add("hide-modal")
+    modalMessage.style.display = "none";
 });
 
 // When the user clicks on the button, open the modal
