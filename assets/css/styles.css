@@ -1352,12 +1352,40 @@ a{
 }
 
 /* For large devices */
+@media screen and (min-width: 1050px) {
+    .about__blob{
+        width: 350px;
+        height: 350px;
+        justify-content: center;
+    }
+    
+
+    .home__blob{
+        width: 320px;
+    }
+    
+
+    .container{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+   
+}
+
+/* For large devices */
 @media screen and (min-width: 1500px) {
     .about__blob{
         width: 350px;
         height: 350px;
         justify-content: center;
     }
+
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .header,
     .main,
     .footer__container{
