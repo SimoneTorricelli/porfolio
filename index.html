@@ -754,7 +754,7 @@
 
                         <div>
                             <h3 class="contact__title">Call Me</h3>
-                            <span class="contact__subtitle">+880-1521253077</span>
+                            <span class="contact__subtitle">3400922436</span>
                         </div>
                     </div>
 
@@ -763,7 +763,7 @@
 
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">rajuahmad6789@gmail.com</span>
+                            <span class="contact__subtitle">simone.torricelli.00@gmail.com</span>
                         </div>
                     </div>
 
@@ -772,11 +772,11 @@
 
                         <div>
                             <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Kamrangirchar, Dhaka-1211, Bangladesh</span>
+                            <span class="contact__subtitle">Torino</span>
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form name="contact" id="ContactForm" class="cpntact__form grid" data-netlify-recaptcha="true" data-netlify="true"  >
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="name" class="contact__label">Name</label>
@@ -800,7 +800,7 @@
                         </div>
                         
                         <div>
-                            <a href="#" class="button button--flex">Send Message</a>
+                            <a href="#" class="button button--flex" id="submitButton">Send Message</a>
                             <i class="uil uil-message button__icon"></i>
                         </div>
                     </form>
@@ -808,7 +808,23 @@
             </div>
 
         </section>
+
+<!-- Success mensage modal Netlify -->
+<div class="success__modal" id="success-modal">
+    <div class="success__modal-content">
+        <h4 class="success__modal-title">Your message was succefuly send. <i class="uil uil-smile-wink-alt success__modal-face"></i></h4>
+        
+        <p class="success__modal-message">
+            In the next days I will respond to your message via email, Thanks.
+        </p>
+        <br>
+        <a class="button button--flex" id="success__modal-button">OK <i class="uil uil-envelope-check button__icon"></i></a>
+    </div>
+</div>
+
     </main>
+
+     
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
